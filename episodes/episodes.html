@@ -7,33 +7,41 @@
   <title>Document</title>
 </head>
 <body>
-  <!-- Include the tag for introductory content -->
+  <header role="banner"><!-- Include the tag for introductory content -->
 
-    <!-- Display sysk logo nested in an anchor tag to link to index.html -->
+    <a href="index.html"><img src="../images/sysk-logo.webp"></a><!-- Display sysk logo nested in an anchor tag to link to index.html -->
   
-    <!-- Write the markup for a navigation and link items to appropriate pages -->
-    About
-    Episodes
+    <nav>
+      <ul><!-- Write the markup for a navigation and link items to appropriate pages -->
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../episodes/episodes.html">Episodes</a></li>
+      </ul>
+    </nav>
 
+  </header> 
+  
+  
+  <main role="main">
 
-
-  <!-- Add an element that represents the main content of the page --> 
+   
 
     <!-- Main heading for the page -->
-    Featured Episodes
+    <h1>Featured Episodes</h1>
 
-    There are so many episodes of Stuff You Should Know to listen to but here are three of our favourites; in this order.
+    <p>There are so many episodes of Stuff You Should Know to listen to but here are three of our favourites; in this order.</p>
 
+    
     <!-- Display the following as a list and link to appropriate existing html page -->
-    1. Interesting Origins of Everday Phrases
-    2. The History of Fake Towns
-    3. Doppelgängers: Hey you, you're me!
+    <ol>
+      <a href="../episodes/everyday-phrases.html"><li>Interesting Origins of Everday Phrases</li></a>
+      <a href="../episodes/fake-towns.html"><li>The History of Fake Towns</li></a> 
+      <a href="../episodes/doppelgangers.html"><li>Doppelgängers: Hey you, you're me!</li></a>
+    </ol>
+  </main>
 
-
-
-  <!-- Include the tag for footer content -->
+  <footer role="contentinfo"> <!-- Include the tag for footer content -->
   &copy; SYSK 2023 
-
+  </footer>
 
 </body>
 </html>
